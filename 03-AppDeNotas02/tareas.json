@@ -1,0 +1,53 @@
+[
+
+   {
+      "id": 1645383222284,
+      "descripcion" : "Realizar una page landing para Marcelo",
+      "estado" : "Terminada"
+   },
+   {
+      "id": 1333383476684,
+      "descripcion" : "Desarrollar app ingreso de empleados para Firestone S.A",
+      "estado" : "En Progreso"
+   },
+   {
+      "id": 1645383476684,
+      "descripcion" : "Realizar e-commerce para MercadoLibre",
+      "estado" : "Pendiente"
+   },
+   {
+      "id": 1645444476684,
+      "titulo" : "Subir a Git actualización de proyecto 'Hola Mundo' ",
+      "estado" : "Pendiente"
+   },
+   {
+      "id": 1645444322684,
+      "titulo" : "Organizar Trello para el nuevo proyecto de Digital House",
+      "estado" : "Terminada"
+   },
+   {
+      "id": 1645380978813,
+      "descripcion": "Crear usuario git para Marcelo",
+      "estado": "Terminada"
+   },
+   {
+      "id": 1645381035181,
+      "descripcion": "Enviar trabajo finalizado a Microsoft",
+      "estado": "Pendiente"
+   },
+   {
+      "id": 1645383024185,
+      "descripcion": "Enviar formulario al proveedor",
+      "estado": "Pendiente"
+   },
+   {
+      "id": 1645383476684,
+      "descripcion": "Filtrar lista de clientes nueva",
+      "estado": "Pendiente"
+   },
+   {
+      "id": 1645322226684,
+      "descripcion": "Generar nuevos ecosistemas de trabajo",
+      "estado": "Pendiente"
+   }
+]

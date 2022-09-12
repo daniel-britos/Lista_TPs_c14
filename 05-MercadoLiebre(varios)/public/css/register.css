@@ -1,0 +1,167 @@
+.main-register {
+    padding: 20px 0;
+}
+.main-form {
+    background-color: var(--grisClaro); 
+}
+.main-form h1 {
+    text-align: center;
+    margin-bottom: 10px;  
+}
+.form-register {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.form-nombre div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form-nombre div label {
+    font-weight: bolder;
+}
+.form-contrasena div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form-contrasena div label {
+    font-weight: bolder;
+}
+.form-nacimiento div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form-nacimiento div label {
+    font-weight: bolder;
+}
+#nacimiento {
+    width: 150px;
+}
+.form-categoria {
+    margin-bottom: 10px;
+}
+.form-categoria div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.categ-input {
+    border: none;
+    border-radius: 5px;
+}
+.form-categoria div ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.form-foto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-foto label {
+    font-weight: bolder;
+}
+.form-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn {   
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.btn-send {
+    background-color: blue;
+}
+.btn-delete {
+    background-color: red;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.form-tipousuario ul{
+    display: flex;
+    justify-content: space-between;
+}
+#comprador {
+    margin-right: 5px;
+}
+#vendedor {
+    margin-right: 10px;
+}
+
+
+/* MOBILE */
+@media (max-width: 320px) {
+
+}
+
+
+/* TABLET */
+@media (min-width: 780px) {
+
+}
+/* DESKTOP */
+@media (min-width: 1000px) {
+    .main-form {
+        display: flex;   
+        align-items: center;
+        flex-direction: column;
+    }
+    .form-register {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-nombre {
+        display: flex;
+    }
+    .form-nombre div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .form-contrasena {
+        display: flex;
+    }
+    .form-contrasena div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .form-nacimiento {
+        display: flex;
+        justify-content: space-around;
+    }
+    .form-nacimiento div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .form-categoria {
+        display: flex;
+    }
+    .form-categoria div {
+        margin: 10px;
+    }
+    .form-categoria div ul li {
+        list-style: none;
+    }
+    .form-foto {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-tipousuario ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

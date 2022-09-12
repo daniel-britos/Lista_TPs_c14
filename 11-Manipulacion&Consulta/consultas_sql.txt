@@ -1,0 +1,73 @@
+
+    INSERT INTO genres(name, active , ranking) 
+    values ('drama', 13, 15)
+
+    UPDATE genres 
+    SET name = 'Drama adolecente'
+    WHERE id = 15
+
+    DELETE FROM genres 
+    WHERE id = 15
+
+    SELECT * 
+    FROM movies
+
+    SELECT rating, first_name, last_name
+    FROM actors
+
+    SELECT title 
+    FROM series
+    
+
+    SELECT rating, first_name, last_name
+    FROM actors 
+    WHERE rating > 10
+
+    SELECT title, awards, rating
+    FROM movies 
+    WHERE rating > 10
+    
+    
+    SELECT title, rating  
+    FROM movies 
+    ORDER BY title 
+
+    SELECT title 
+    FROM movies 
+    LIMIT 5
+
+    SELECT * 
+    FROM movies 
+    ORDER BY rating DESC 
+    LIMIT 5
+
+    SELECT *
+    FROM movies
+    ORDER BY rating desc
+    LIMIT 10
+    OFFSET 5 
+
+    SELECT * 
+    FROM actors 
+    LIMIT 10
+
+    SELECT *
+    FROM actors
+    LIMIT 10
+    OFFSET 3
+
+    SELECT title , rating
+    FROM movies 
+    WHERE title 
+    LIKE '%Narnia%'
+
+    SELECT *
+    FROM actors
+    WHERE first_name 
+    LIKE '%Pet'
+
+
+    SELECT *
+    FROM movies
+    WHERE release_date 
+    BETWEEN "2001-1-2" AND "20015-1-2"

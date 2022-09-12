@@ -1,0 +1,51 @@
+.main-footer {
+  background-color: white;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+.main-footer section article {
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  padding-bottom: 30px;
+}
+.main-footer section article h4 {
+  font-size: 16px;
+}
+.main-footer section article p {
+  font-size: 12px;
+}
+.main-footer section article .fas {
+  font-size: 25px;
+  color: var(--celeste);
+}
+.footer-copyright p {
+  margin: 0;
+  padding: 0;
+}
+.footer-copyright{
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+}
+
+/* DESKTOP */
+@media (min-width: 1000px) {
+  .main-footer section  {
+    display: flex;
+  }
+}
+/* TABLET */
+@media (min-width: 780px) {
+  .footer-copyright {
+    font-size: 12px;
+  }
+  .main-footer section  {
+    display: flex;
+  }
+  .main-footer .fas:hover {
+    color: var(--azul);
+    cursor: pointer;
+  }
+
+}

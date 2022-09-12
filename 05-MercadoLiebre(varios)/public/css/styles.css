@@ -1,0 +1,14 @@
+@import "./general.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./register.css";
+@import "./login.css";
+
+
+/*
+●Navegación en mobile (ancho mínimo 360 px) 
+●Navegación en tablets (ancho mínimo 780 px) 
+●Navegación en desktop (ancho mínimo 1000 px)
+*/
+

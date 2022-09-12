@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('partials/head', {title: 'Formulario de creación'}) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+	<!-- /Header -->
+
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="products-title">Formulario de creación de productos</h2>
+			</div>
+		</div>
+		<div class="col-12">  																<!-- el action va a depende de como llegue la ruta, como pusimos /create y es el mismo que get no necesitamos en este caso el action -->
+			<form action="/products/create" method="POST" enctype="multipart/form-data">  <!--agrego y metodo post para enviar los datos -->
+				<div class="row product-detail">
+					<div class="col-12 col-md-6">
+						<label for="name" class="form-label">Nombre del producto:</label>
+						<input type="text" id="name" name="name" placeholder="Ej: Zapatillas Reebok" class="form-input">
+					</div>
+					<div class="col-12 col-md-6">
+						<label for="price" class="form-label">Precio del producto:</label>
+						<input type="number" id="price" name="price" placeholder="Ej: 5678" class="form-input">
+					</div>
+					<div class="col-12 col-md-6">
+						<label for="discount" class="form-label">Descuento:</label>
+						<input type="number" id="discount" name="discount" placeholder="Ej: 15" class="form-input">
+					</div>
+					<div class="col-12 col-md-6">
+						<label for="category" class="form-label">Categoría:</label>
+						<select name="category" id="category" class="form-input">
+							<option value="" hidden selected>Elegí</option>  <!-- usamos hidden selected para cuando una vez elegida la opción esta desaparezca -->
+							<option value="in-sale">En oferta</option>
+							<option value="visited">Últimos agregados</option>
+						</select>
+					</div>
+					<div class="col-12">
+						<label for="description" class="form-label">Descipción:</label>
+						<textarea name="description" id="description" class="form-input"></textarea>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="row">
+							<div class="col-6">
+								<img src="" id="imgPreview" alt="">
+							</div>
+							<div class="col-6">
+								<label for="image" class="form-label">Imagen:</label>
+								<input type="file" id="image" name="image" placeholder="Ej: 15" class="form-input" accept="image/*">
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<button type="submit" class="buy-now-button" style="cursor: pointer;">Guardar producto</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- /todos los productos -->
+
+	<!-- footer -->
+	<%- include('partials/footer') %>
+	<!-- /footer -->
+	<script>
+		document.getElementById('image').addEventListener('change', (e) => { //capturo el elemento file (image) para que cuando tenga un cambio (change) por ejemplo al cargar una imagen me ejecute lo de adentro
+			let reader = new FileReader();
+			reader.readAsDataURL(e.target.files[0])
+			reader.onload = () => {
+				document.getElementById('imgPreview').src = reader.result
+			}
+		});
+	</script>
+</body>	
+</html>

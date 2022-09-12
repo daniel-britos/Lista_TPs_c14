@@ -1,0 +1,30 @@
+[
+   {
+      "id": 1,
+      "nombre": "Eric",
+      "apellido": "Garcia",
+      "email": "menaericdaniel@gmail.com",
+      "password": "$2a$10$Mef9M.vJ23aT4io9lqWA3.KFZLk/KEaB/lnnp1R4BoQ/Ed71t.oZS",
+      "rol": "admin",
+      "fecha": "",
+      "domicilio": ""
+   },
+   {
+      "id": 2,
+      "nombre": "Noelia",
+      "apellido": "Acosta",
+      "email": "noelia@acosta.com",
+      "password": "$2a$10$TMIh31JhcA.pbGoPOgmYLupZyxTx44UrxBIEQMjgaYgwEsHQPFq3m",
+      "rol": "user"
+   },
+   {
+      "id": 3,
+      "nombre": "Daniel",
+      "apellido": "Britos",
+      "email": "daniel@gmail.com",
+      "password": "$2a$10$saNkhttojLG7WE.OCMD.b.TMvz0DfnlCKq33GbHeg0xOC.rQY0sIW",
+      "rol": "user",
+      "fecha": "",
+      "domicilio": ""
+   }
+]

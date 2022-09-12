@@ -1,0 +1,22 @@
+[
+    {
+        "titulo" : "Realizar una page landing para Marcelo",
+        "estado" : "Terminada"
+    },
+    {
+        "titulo" : "Desarrollar app ingreso de empleados para Firestone S.A",
+        "estado" : "En progreso"
+    },
+    {
+        "titulo" : "Realizar e-commerce para MercadoLibre",
+        "estado" : "Pendiente"
+    },
+    {
+        "titulo" : "Subir a Git actualización de proyecto 'Hola Mundo' ",
+        "estado" : "Pendiente"
+    },
+    {
+        "titulo" : "Organizar Trello para el nuevo proyecto de Digital House",
+        "estado" : "Terminada"
+    }
+]
